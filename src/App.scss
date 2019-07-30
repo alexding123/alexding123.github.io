@@ -1,0 +1,361 @@
+:root {
+  --off-white: #fafafa;
+}
+
+.container {
+  max-width: 100%; text-align: center; margin: 20px;
+  font-family:Montserrat,sans-serif;
+}
+
+.fade-in {
+  -webkit-animation: fade-in 1.2s cubic-bezier(0.39, 0.575, 0.565, 1) both;
+  animation: fade-in 1.2s cubic-bezier(.39,.575,.565,1) both;
+}
+
+.Typist {
+  display: inline !important;
+}
+.Typist div {
+  display: inline !important;
+}
+
+.headshot {
+  max-height: 30vh; margin-top: 10px;
+}
+.icon {
+  width: 2em; margin: 5px; opacity: 0.5; transition: opacity 0.2s ease 0s;
+}
+
+.icon:hover {
+  opacity: 1; transition: opacity 0.2s ease 0s;
+}
+
+.icon-small {
+  width: 1em; margin: 5px; opacity: 0.5; transition: opacity 0.2s ease 0s;
+}
+
+.icon-small:hover {
+  opacity: 1; transition: opacity 0.2s ease 0s;
+}
+
+@-webkit-keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.section {
+  max-width: 100%; text-align: center; margin: 20px;
+}
+
+.title {
+  font-size: 4em;
+  margin: 0px 30px;
+}
+
+.divider {
+  background: #c8c8c8;
+  height: 1px;
+  max-width: 65vw;
+  margin: 2em auto;
+}
+
+.text-block {
+  max-width: 65vw; font-size: 1.2em; text-align: justify; display: block; margin-left: auto; margin-right: auto; line-height: 24pt; color:#4a4a4a;
+}
+
+.card {
+  margin: 10px; min-width: 40vw; max-width: 75vw;
+  background-color: #fff;
+  box-shadow: 0 2px 3px rgba(10,10,10,.1), 0 0 0 1px rgba(10,10,10,.1);
+  color: #4a4a4a;
+  max-width: 100%;
+  position: relative;
+}
+
+.card-img {
+  max-height: 20em; max-width: 50vw; margin-left: auto; margin-right: auto;
+}
+
+.card-header {
+  background-color: initial;
+  align-items: stretch;
+  box-shadow: 0 1px 2px rgba(10,10,10,.1);
+  display: flex;
+  padding: 0 3vw;
+}
+
+.card-header-title {
+  align-items: center;
+  color: #363636;
+  display: flex;
+  flex-grow: 1;
+  font-weight: 700;
+  padding: .75rem;
+  font-size: 1.5em;
+}
+
+.card-content {
+  background-color: initial;
+  padding: 1.5rem;
+  text-align: center; line-height: 24pt;
+}
+
+.card-description {
+  margin-top: 1em;
+  text-align: justify;
+}
+
+.card-footer {
+  background-color: initial;
+  border-top: 1px solid #dbdbdb;
+  align-items: stretch;
+  display: flex;
+  
+  padding-top: 0.5rem;
+}
+
+.card-footer-item {
+  padding-left: 1rem;
+}
+
+.classes-container {
+  padding: 0;
+  
+}
+
+.class-container {
+  display: block
+}
+
+.card-class-title {
+  flex-grow: 1;
+  font-weight: 700;
+  font-size: 1em;
+  text-align: justify;
+  justify-content: left;
+}
+
+.class-info-title.card-header-title{
+  font-size: 1em;
+  padding: .25rem;
+}
+
+.nav {
+  background-color: var(--off-white);
+  position: sticky;
+  top: 0px;
+  width: 100%;
+  height: 50px;
+  z-index: 1000;
+  box-shadow: 0 4px 14px 0 rgba(0, 0, 0, 0.15);
+}
+
+.nav-logo {
+  height: 60px;
+  width: 60px;
+}
+
+.nav-logo:hover {
+  cursor: pointer;
+}
+
+.nav .nav-content {
+  max-width: 900px;
+  padding: 0rem 3rem;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+}
+
+.nav-item {
+  display: inline;
+  margin-left: 2rem;
+  color: #333;
+}
+
+.nav-item:hover {
+  color: black;
+  cursor: pointer;
+}
+
+.nav-item > .active {
+  border-bottom: 1px solid #333;
+}
+
+$container-shadow: 0.5rem 0.5rem 2rem 0 rgba(black, 0.2);
+
+$gutter: 30px;
+$border-width: 4px;
+$dot-diameter: 8px;
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  width: 100vw;
+  color: #333;
+  box-sizing: border-box;
+  * {
+    box-sizing: border-box;
+  }
+}
+
+#root {
+  width:100%;
+}
+
+.timeline-container {
+  max-width: 100%; text-align: center; margin: 20px;
+}
+
+.timeline {
+  width:100%;
+  background:#fff;
+  padding: 100px 10vh;
+  position: relative;
+
+  &:before {
+    content: '';
+    position: absolute;
+    top: 0px;
+    left:calc(33% + 15px); //$gutter/2
+    bottom: 0px;
+    width: $border-width;
+    background: #ddd;
+  }
+  &:after {
+    content: "";
+    display: table;
+    clear: both;
+  } 
+}
+
+.entry {
+  clear: both;
+  text-align: left;
+  position: relative;
+  .entry-title {
+    margin-bottom: .5em;
+    float: left;
+    width: 33%;
+    padding-right: $gutter;
+    text-align: right;
+    position: relative;
+    &:before {
+      content: '';
+      position: absolute;
+      width: $dot-diameter;
+      height: $dot-diameter;
+      border: $border-width solid salmon;
+      background-color:#fff;
+      border-radius:100%;
+      top: 15%;
+      right: -$dot-diameter/2;
+      z-index: 99;
+    }
+    h3 {
+      margin: 0;
+      font-size: 120%;
+    }
+    p {
+      margin: 0;
+      font-size: 100%;
+    }
+  }
+  .entry-body {
+    margin: 0 0 3em;
+    float: right;
+    width: 66%;
+    padding-left: $gutter;
+    p {
+      line-height: 1.4em;
+      &:first-child {
+        margin-top: 0;
+        font-weight: 400;
+      }
+    }
+    ul {
+      color:#aaa;
+      padding-left: 0;
+      list-style-type: none;
+      li:before {
+        content: "–";
+        margin-right: .5em;
+      }
+    }
+  }
+}
+
+.skillset-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.skill-container {
+  margin-left: 20px; margin-right: 20px;
+  margin-top: 20px;
+}
+
+i {
+  font-size: 5em; opacity: 0.6; transition: opacity 0.2s ease 0s;
+}
+
+i:hover {
+  font-size: 5em; opacity: 1; transition: opacity 0.2s ease 0s;
+}
+
+.skill-name {
+  font-size: 1.2em;
+}
+
+.skill {
+  height: 5em; opacity: 0.6; transition: opacity 0.2s ease 0s;
+}
+
+.skill:hover {
+  height: 5em; opacity: 1; transition: opacity 0.2s ease 0s;
+}
+
+.contact {
+  max-width: 75vw; font-size: 1.2em; display: block; margin-left: auto; margin-right: auto; line-height: 24pt;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.footer-left {
+  margin-right: auto; padding: 20px;
+}
+
+.footer-center {
+  margin-left: auto; margin-right: auto; padding: 20px; text-align: center;
+  color: #333;
+}
+
+.footer-center:hover {
+  cursor: pointer;
+  color: black;
+}
+
+.footer-right {
+  margin-left: auto; padding: 20px;
+}

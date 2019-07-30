@@ -1,0 +1,108 @@
+[
+    {
+        "name": "Languages",
+        "members": [
+            {
+                "name": "Python",
+                "icon": "devicon-python-plain-wordmark colored"
+            },
+            {
+                "name": "Golang",
+                "icon": "devicon-go-plain colored"
+            },
+            {
+                "name": "C",
+                "icon": "devicon-c-plain-wordmark colored"
+            },
+            {
+                "name": "C++",
+                "icon": "devicon-cplusplus-plain-wordmark colored"
+            },
+            {
+                "name": "JavaScript",
+                "icon": "devicon-javascript-plain colored"
+            }
+        ]
+        
+    },
+    {
+        "name": "Libraries",
+        "members": [
+            {
+                "name": "NumPy",
+                "img_url": "https://i.imgur.com/7mfHUWa.png"
+            },
+            {
+                "name": "TensorFlow",
+                "img_url": "https://i.imgur.com/8lZVCjB.png"
+            },
+            {
+                "name": "scikit-learn",
+                "img_url": "https://i.imgur.com/LcNAw6N.png"
+            },
+            {
+                "name": "Flask",
+                "img_url": "https://i.imgur.com/fOULcWl.png"
+            }
+        ]
+    },
+    {
+        "name": "Web",
+        "members": [
+            {
+                "name": "ReactJS",
+                "icon": "devicon-react-original-wordmark colored"
+            },
+            {
+                "name": "JQuery",
+                "icon": "devicon-jquery-plain-wordmark colored"
+            },
+            {
+                "name": "Heroku",
+                "icon": "devicon-heroku-plain-wordmark colored"
+            },
+            {
+                "name": "HTML5",
+                "icon": "devicon-html5-plain-wordmark colored"
+            },
+            {
+                "name": "CSS3",
+                "icon": "devicon-css3-plain-wordmark colored"
+            },
+            {
+                "name": "SQL",
+                "icon": "devicon-postgresql-plain colored"
+            }
+
+        ]
+    },
+    {
+        "name": "Miscellaneous",
+        "members": [
+            {
+                "name": "Linux",
+                "icon": "devicon-linux-plain colored"
+            },
+            {
+                "name": "Docker",
+                "icon": "devicon-docker-plain-wordmark colored"
+            },
+            {
+                "name": "Git",
+                "icon": "devicon-git-plain-wordmark colored"
+            },
+            {
+                "name": "GitHub",
+                "icon": "devicon-github-plain colored"
+            },
+            {
+                "name": "LaTeX",
+                "img_url": "https://i.imgur.com/XtMLCTS.png"
+            },
+            {
+                "name": "Photoshop",
+                "icon": "devicon-photoshop-plain colored"
+            }
+        ]
+    }
+]
