@@ -47,7 +47,7 @@ export default class ExperiencesComponent extends Component {
     return (
       <div className="experiences-container" id="experiences">
         <div className="experiences-title title">
-          Experineces
+          Experiences
         </div>
         <div className="timeline-container section">
           {this.getExperiences()}
