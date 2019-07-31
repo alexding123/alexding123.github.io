@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import Tooltip from "@material-ui/core/Tooltip";
 import YouTube from 'react-youtube';
 
 
@@ -26,11 +27,13 @@ export default class EmbedVideoComponent extends Component {
     };
     return (
       <React.Fragment>
+      <Tooltip title="Video">
       <a 
         onClick={() => this.setState({expanded:!this.state.expanded})}
         ref={(element) => this.element = element}>
         <img alt="github" src={video} className="icon"/>
       </a>
+      </Tooltip>
       {this.state.expanded ? <YouTube
         videoId={link}
         opts={opts}

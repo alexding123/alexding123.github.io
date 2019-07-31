@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import RestartingTypist from "./RestartingTypist";
+import Tooltip from "@material-ui/core/Tooltip";
 import email from "../imgs/email.svg";
 import github from "../imgs/github.svg";
 import headshot from "../imgs/headshot.png";
@@ -53,12 +54,16 @@ export default class IntroComponent extends Component {
   getIcons() {
     return (
       <div className="icon-conatiner">
-        <a href="https://github.com/alexding123/" target="_blank" rel="noopener noreferrer">
-          <img alt="github" src={github} className="icon"/>
-        </a>
-        <a href="mailto:alding@commschool.org">
-          <img alt="email" src={email} className="icon"/>
-        </a>
+        <Tooltip title="GitHub">
+          <a href="https://github.com/alexding123/" target="_blank" rel="noopener noreferrer">
+            <img alt="github" src={github} className="icon"/>
+          </a>
+        </Tooltip>
+        <Tooltip title="Email">
+          <a href="mailto:alding@commschool.org">
+            <img alt="email" src={email} className="icon"/>
+          </a>
+        </Tooltip>
       </div>
     )
   }

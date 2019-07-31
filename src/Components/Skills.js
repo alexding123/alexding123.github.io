@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import Tooltip from "@material-ui/core/Tooltip";
 import skills from "../jsons/skills.json";
 
 export default class SkillsComponent extends Component {
@@ -11,12 +12,14 @@ export default class SkillsComponent extends Component {
             <br></br><br></br>
             <div className="skillset-container">
               {skill_set.members.map((member, id) => 
-                <div className="skill-container" key={id}>
-                  {member.icon ? 
-                  <i className={member.icon}></i> : 
-                  <img className="skill" alt={member.name} src={member.img_url}></img>
-                  }
-                </div>
+                <Tooltip title={member.name}>
+                  <div className="skill-container" key={id}>
+                    {member.icon ? 
+                    <i className={member.icon}></i> : 
+                    <img className="skill" alt={member.name} src={member.img_url}></img>
+                    }
+                  </div>
+                </Tooltip>
               )}
               
             </div>

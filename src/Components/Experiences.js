@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import Tooltip from "@material-ui/core/Tooltip";
 import EmbedVideoComponent from "./EmbedVideo";
 import experiences from "../jsons/experiences.json";
 
@@ -25,9 +26,9 @@ export default class ExperiencesComponent extends Component {
                 
               <div className="entry-icons">
               { experience.github_link ? 
-                <a href={experience.github_link} target="_blank" rel="noopener noreferrer">
+                <Tooltip title="GitHub repo"><a href={experience.github_link} target="_blank" rel="noopener noreferrer">
                   <img alt="github" src={github} className="icon"/>
-                </a>
+                </a></Tooltip>
               : null
               }
               { experience.video_link ? 
