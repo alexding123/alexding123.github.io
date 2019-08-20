@@ -1,6 +1,5 @@
 import React, { Component } from "react";
 import Tooltip from "@material-ui/core/Tooltip";
-import ControlledTooltip from "./ControlledTooltip";
 import projects from "../jsons/projects.json";
 import github from "../imgs/github.svg";
 import demo from "../imgs/demo.svg";
@@ -53,11 +52,11 @@ class CardComponent extends Component {
         <footer className="card-footer">
 
           {project.github_link ? 
-          <Tooltip title="GitHub Repo"><a className="card-footer-item" href={project.github_link} target="_blank" rel="noopener noreferrer"><img alt="github" className="icon" src={github}/></a></Tooltip> :
+          <Tooltip title="GitHub Repo"><a className="card-footer-item" href={project.github_link} target="_blank" rel="noopener noreferrer" onMouseEnter={() => this.setState({github_link_hover:true})} onMouseLeave={() => this.setState({github_link_hover:false})}><img alt="github" className="icon" src={github}/></a></Tooltip> :
           null}
 
           {project.demo_link ? 
-          <Tooltip title="Demo" open={this.state.hover}><a className="card-footer-item" href={project.demo_link} target="_blank" rel="noopener noreferrer"><img alt="demo" className="icon" src={demo}/></a></Tooltip> :
+          <Tooltip title="Demo" open={this.state.hover && !this.state.github_link_hover}><a className="card-footer-item" href={project.demo_link} target="_blank" rel="noopener noreferrer"><img alt="demo" className="icon" src={demo}/></a></Tooltip> :
           null}
         </footer>
       </div>
