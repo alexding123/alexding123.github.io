@@ -6,8 +6,10 @@
         "position": "Computer Science Internship",
         "details": [
             "Worked with Dr. Liu's group to automatically diagnose and classify Retinopathy of Prematurity (stages, region, etc.)",
-            "Classified of disease stage using object detection, specifically MaskRCNN"
-        ]
+            "Innovated on existing work to combine object detection, using Mask R-CNN, and classification, using CNN, to improve on CNN-only results of ROP stage classification."
+        ],
+        "publication_name": "Retinopathy of Prematurity Stage Diagnosis Using Object Detection and Convolutional Neural Networks",
+        "publication_link": ""
     },
     {
         "time": "April 2019 - Present",
