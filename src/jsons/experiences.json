@@ -5,8 +5,10 @@
         "link": "https://www.cs.uml.edu/~bliu/index.html",
         "position": "Computer Science Internship",
         "details": [
-            "Worked with Dr. Liu's group to automatically diagnose and classify Retinopathy of Prematurity (stages, region, etc.)",
-            "Classified of disease stage using object detection, specifically MaskRCNN"
+            "Working with Dr. Liu's group to automatically diagnose Retinopathy of Prematurity (potentially blinding disease common to premature infants) using deep learning",
+            "Classifying disease stage by combining object detection and convolutional neural networks",
+            "Proposing a novel method by first highlighting the symptomatic ridges using object detection before feeding the highlighted image into a classifier",
+            "Paper in progress, available soon!"
         ]
     },
     {
@@ -15,9 +17,10 @@
         "link": "http://math.mit.edu/research/highschool/primes/index.php",
         "position": "Rigorous Research Program",
         "details": [
-            "Implemented a suite of benchmark algorithms to evaluate UPC++, a PGAS parallel programming library for C++, in comparison to OpenMP",
+            "Evaluating the convenience, scalability, and robustness of UPC++, a parallel distributed partitioned global address space library, by testing common parallel graph algorithms implemented using library and OpenMP, a common shared-memory parallel library",
             "Ran experiments on AWS Clusters and Multi-Processor machines",
-            "Abstract--LINK"
+            "Presenting at MIT for the PRIMES conference",
+            "Paper in progress. Presentation slides, abstract, and paper will be available soon"
         ]
     },
     {
