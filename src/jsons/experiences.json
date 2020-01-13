@@ -16,10 +16,11 @@
         "location": "MIT PRIMES",
         "link": "http://math.mit.edu/research/highschool/primes/index.php",
         "position": "Rigorous Research Program",
+        "publication_name": "An Evaluation of UPC++ by Porting Shared-Memory Parallel Graph Algorithms",
+        "publication_link": "http://math.mit.edu/research/highschool/primes/materials/2019/Ding.pdf",
         "details": [
             "Implemented a suite of benchmark algorithms to evaluate UPC++, a PGAS parallel programming library for C++, in comparison to OpenMP",
-            "Ran experiments on AWS Clusters and Multi-Processor machines",
-            "Abstract--LINK"
+            "Ran experiments on AWS Clusters and Multi-Processor machines"
         ]
     },
     {
