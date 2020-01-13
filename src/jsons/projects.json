@@ -26,8 +26,8 @@
     {
         "title": "PythonLikeYouMeanIt",
         "image_link": "https://i.imgur.com/fibSdSX.png",
-        "description": "An online resource teaching Python and NumPy started by my summercamp instructor Ryan that I actively contribute to. I wrote and actively maintain a Chinese translation of the text! Check out the demo below.",
-        "github_link": "https://github.com/rsokl/Learning_Python/",
+        "description": "An online resource teaching Python and NumPy started by my summercamp instructor Ryan that I actively contribute to. I translated the whole text into Mandarin so that the growing programming community in China can access this great resource without language barriers.",
+        "github_link": "https://github.com/alexding123/Learning_Python/",
         "demo_link": "https://cn.pythonlikeyoumeanit.com/"
     },
 

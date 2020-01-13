@@ -8,19 +8,21 @@
             "Working with Dr. Liu's group to automatically diagnose Retinopathy of Prematurity (potentially blinding disease common to premature infants) using deep learning",
             "Classifying disease stage by combining object detection and convolutional neural networks",
             "Proposing a novel method by first highlighting the symptomatic ridges using object detection before feeding the highlighted image into a classifier",
-            "Paper in progress, available soon!"
-        ]
+        ],
+        "publication_name": "Retinopathy of Prematurity Stage Diagnosis Using Object Detection and Convolutional Neural Networks",
+        "publication_link": ""
     },
     {
         "time": "April 2019 - Present",
         "location": "MIT PRIMES",
         "link": "http://math.mit.edu/research/highschool/primes/index.php",
         "position": "Rigorous Research Program",
+        "publication_name": "An Evaluation of UPC++ by Porting Shared-Memory Parallel Graph Algorithms",
+        "publication_link": "http://math.mit.edu/research/highschool/primes/materials/2019/Ding.pdf",
         "details": [
             "Evaluating the convenience, scalability, and robustness of UPC++, a parallel distributed partitioned global address space library, by testing common parallel graph algorithms implemented using library and OpenMP, a common shared-memory parallel library",
             "Ran experiments on AWS Clusters and Multi-Processor machines",
             "Presenting at MIT for the PRIMES conference",
-            "Paper in progress. Presentation slides, abstract, and paper will be available soon"
         ]
     },
     {
