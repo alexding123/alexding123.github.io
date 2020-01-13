@@ -5,8 +5,9 @@
         "link": "https://www.cs.uml.edu/~bliu/index.html",
         "position": "Computer Science Internship",
         "details": [
-            "Worked with Dr. Liu's group to automatically diagnose and classify Retinopathy of Prematurity (stages, region, etc.)",
-            "Innovated on existing work to combine object detection, using Mask R-CNN, and classification, using CNN, to improve on CNN-only results of ROP stage classification."
+            "Working with Dr. Liu's group to automatically diagnose Retinopathy of Prematurity (potentially blinding disease common to premature infants) using deep learning",
+            "Classifying disease stage by combining object detection and convolutional neural networks",
+            "Proposing a novel method by first highlighting the symptomatic ridges using object detection before feeding the highlighted image into a classifier",
         ],
         "publication_name": "Retinopathy of Prematurity Stage Diagnosis Using Object Detection and Convolutional Neural Networks",
         "publication_link": ""
@@ -19,8 +20,9 @@
         "publication_name": "An Evaluation of UPC++ by Porting Shared-Memory Parallel Graph Algorithms",
         "publication_link": "http://math.mit.edu/research/highschool/primes/materials/2019/Ding.pdf",
         "details": [
-            "Implemented a suite of benchmark algorithms to evaluate UPC++, a PGAS parallel programming library for C++, in comparison to OpenMP",
-            "Ran experiments on AWS Clusters and Multi-Processor machines"
+            "Evaluating the convenience, scalability, and robustness of UPC++, a parallel distributed partitioned global address space library, by testing common parallel graph algorithms implemented using library and OpenMP, a common shared-memory parallel library",
+            "Ran experiments on AWS Clusters and Multi-Processor machines",
+            "Presenting at MIT for the PRIMES conference",
         ]
     },
     {
