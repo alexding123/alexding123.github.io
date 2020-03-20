@@ -1,5 +1,12 @@
 [
     {
+        "title": "Quote of the Week",
+        "image_link": "https://i.imgur.com/QYgQQsJ.png",
+        "description": "Modern website for Commonwealth's Quote of the Week, built using Firebase",
+        "github_link": "https://github.com/alexding123/qotw",
+        "demo_link": "https://qote.net"
+    },
+    {
         "title": "AlexBot",
         "image_link": "https://i.imgur.com/D1iR8yS.png",
         "description": "A bot imitating how I talk (albeit not very successfully) trained on my own texting history using RNNs",

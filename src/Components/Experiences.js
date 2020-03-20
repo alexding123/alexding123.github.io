@@ -22,7 +22,12 @@ export default class ExperiencesComponent extends Component {
                 {experience.details.map((detail, id) => 
                   <li key={id}>{detail}</li>
                 )}
-                { experience.publication_name ? <li key={"writeup"}>Writeup: <a href={experience.publication_link}>{experience.publication_name}</a></li> : null }
+                { experience.publication_name ? <li key={"writeup"}>{`${experience.publication_type}: `} 
+                  {
+                    experience.publication_link ? 
+                      <a href={experience.publication_link}>{experience.publication_name}</a> :
+                      experience.publication_name
+                  }</li> : null }
               </ul>
                 
               <div className="entry-icons">
