@@ -27,16 +27,6 @@
         ]
     },
     {
-        "time": "Dec 2018 - May 2019",
-        "location": "Dr. Benyuan Liu, MIT",
-        "link": "https://www.cs.uml.edu/~bliu/index.html",
-        "position": "Computer Science Internship",
-        "details": [
-            "Created an energy/memory-efficient model to classify vegetable and fruit images using MobileNet and transfer learning in TensorFlow"
-        ],
-        "github_link": "https://github.com/alexding123/vegfru_recognition"
-    },
-    {
         "time": "Jul 2018 - Aug 2018",
         "location": "CogWorks, Beaverworks Summer Institute",
         "link": "https://beaverworks.ll.mit.edu/CMS/bw/bwsi",
@@ -50,25 +40,6 @@
         "video_link": "MBgzzXL_GCM"
     },
     {
-        "time": "Oct 2017 - May 2018",
-        "location": "Dr. Tobias Gerstenberg, MIT",
-        "link": "http://cicl.stanford.edu/member/tobias_gerstenberg/",
-        "position": "Computer Science Internship",
-        "details": [
-            "Implemented a web interface (with a physics engine) to design and simulate causality tests using Box2D and JS",
-            "Collected and processed experiment data with a SQL database"
-        ]
-    },
-    {
-        "time": "Jan 2018 - Feb 2018",
-        "location": "Whitehead Institute",
-        "link": "http://barc.wi.mit.edu/",
-        "position": "Computer Science Internship",
-        "details": [
-            "Translated Ruby scripts processing DNA information into Python"
-        ]
-    },
-    {
         "time": "Jul 2017 - Aug 2017",
         "location": "NuVu Studio",
         "link": "https://cambridge.nuvustudio.com/",
@@ -78,14 +49,5 @@
         ],
         "github_link": "https://github.com/alexding123/AR-Nutrition-Scanner",
         "video_link": "m7DIHmdrfaw"
-    },
-    {
-        "time": "Jan 2017 - Feb 2017",
-        "location": "Digital Lumens",
-        "link": "https://www.digitallumens.com/",
-        "position": "Data Science Internship",
-        "details": [
-            "Acclimated smart lightbulbs to automatically turn on and off during specific times of the day based on learned usage patterns in Golang"
-        ]
     }
 ]
