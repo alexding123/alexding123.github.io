@@ -3,22 +3,22 @@
         "title": "Quote of the Week",
         "image_link": "https://i.imgur.com/QYgQQsJ.png",
         "description": "Modern website for Commonwealth's Quote of the Week, built using Firebase",
-        "github_link": "https://github.com/alexding123/qotw",
+        "github_link": "https://github.com/alexander-ding/qotw",
         "demo_link": "https://qotw.net"
     },
     {
         "title": "Neural Net Flowchart",
         "image_link": "https://i.imgur.com/HPvUy3B.png",
         "description": "A website to rapidly experiment, evaluate, and save neural network architectures using a visually intuitive interface, powered by Tensorflow JS and Flask",
-        "github_link": "https://github.com/alexding123/NN-Flowchart",
-        "demo_link": "https://alexding123.github.io/nn-flowchart/"
+        "github_link": "https://github.com/alexander-ding/NN-Flowchart",
+        "demo_link": "https://alexander-ding.github.io/nn-flowchart/"
     },
 
     {
         "title": "YeetBot",
         "image_link": "https://media.giphy.com/media/fs9AJxWGFy56YmcHTp/giphy.gif",
         "description": "A publically-listed discord meme bot overlaying faces found in an image with a custom filter/image written in Python and hosted on Heroku",
-        "github_link": "https://github.com/alexding123/YeetBot/",
+        "github_link": "https://github.com/alexander-ding/YeetBot/",
         "demo_link": "https://discordbots.org/bot/563019457367375882"
     },
 
@@ -26,7 +26,7 @@
         "title": "PythonLikeYouMeanIt",
         "image_link": "https://i.imgur.com/fibSdSX.png",
         "description": "An online resource teaching Python and NumPy started by my summercamp instructor Ryan that I actively contribute to. I translated the whole text into Mandarin so that the growing programming community in China can access this great resource without language barriers.",
-        "github_link": "https://github.com/alexding123/Learning_Python/",
+        "github_link": "https://github.com/alexander-ding/Learning_Python/",
         "demo_link": "https://cn.pythonlikeyoumeanit.com/"
     }
 ]

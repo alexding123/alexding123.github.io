@@ -3,28 +3,28 @@
         "name": "Algorithmic Toolbox",
         "course_link": "https://www.coursera.org/learn/algorithmic-toolbox",
         "certificate_link": "https://www.coursera.org/account/accomplishments/records/SVUT2Z6RCAEA",
-        "github_link": "https://github.com/alexding123/Algorithm-Toolbox"
+        "github_link": "https://github.com/alexander-ding/Algorithm-Toolbox"
     },
     {
         "name": "Data Structures",
         "course_link": "https://www.coursera.org/learn/data-structures",
         "certificate_link": "https://www.coursera.org/account/accomplishments/records/QPDHM9VDGSFZ",
-        "github_link": "https://github.com/alexding123/Data-Structure"
+        "github_link": "https://github.com/alexander-ding/Data-Structure"
     },
     {
         "name": "Algorithms on Graphs",
         "course_link": "https://www.coursera.org/learn/algorithms-on-graphs",
         "certificate_link": "https://www.coursera.org/account/accomplishments/records/N8NAX76MDDJH",
-        "github_link": "https://github.com/alexding123/Algorithms-on-Graphs"
+        "github_link": "https://github.com/alexander-ding/Algorithms-on-Graphs"
     },
     {
         "name": "Build a Modern Computer from First Principles: From Nand to Tetris",
         "course_link": "https://www.coursera.org/learn/build-a-computer",
-        "github_link": "https://github.com/alexding123/NandToTetris "
+        "github_link": "https://github.com/alexander-ding/NandToTetris "
     },
     {
         "name": "Structure and Interpretation of Computer Programs",
         "note": "Yep it's a book",
-        "github_link": "https://github.com/alexding123/SICP"
+        "github_link": "https://github.com/alexander-ding/SICP"
     }
 ]

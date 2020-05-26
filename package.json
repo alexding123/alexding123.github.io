@@ -1,7 +1,7 @@
 {
-  "name": "alexding123",
+  "name": "alexander-ding",
   "version": "0.1.0",
-  "homepage": "https://alexding123.github.io/",
+  "homepage": "https://alexander-ding.github.io/",
   "private": true,
   "dependencies": {
     "@material-ui/core": "^4.10.0",
@@ -19,7 +19,7 @@
     "react-youtube": "^7.11.2"
   },
   "scripts": {
-    "predeploy": "npm run build && ",
+    "predeploy": "npm run build && cp resume/resume.pdf public/resume.pdf",
     "deploy": "gh-pages -b master -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",

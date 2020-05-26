@@ -5,7 +5,7 @@ export default class FooterComponent extends Component {
   render() {
     return (
       <div className="footer" id="footer">
-        <div className="footer-left">© Alex Ding, 2019</div>
+        <div className="footer-left">© Alex Ding, 2020</div>
         <div className="footer-center">
           <Link 
             activeClass="active"
@@ -18,7 +18,7 @@ export default class FooterComponent extends Component {
             Back on Top
           </Link>
         </div>
-        <div className="footer-right"><a href="https://github.com/alexding123/alexding123.github.io">Source Code</a></div>
+        <div className="footer-right"><a href="https://github.com/alexander-ding/alexander-ding.github.io">Source Code</a></div>
       </div>
     )
   } 

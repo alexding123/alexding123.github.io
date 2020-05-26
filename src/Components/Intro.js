@@ -56,7 +56,7 @@ export default class IntroComponent extends Component {
     return (
       <div className="icon-conatiner">
         <Tooltip title="GitHub">
-          <a href="https://github.com/alexding123/" target="_blank" rel="noopener noreferrer">
+          <a href="https://github.com/alexander-ding/" target="_blank" rel="noopener noreferrer">
             <img alt="github" src={github} className="icon"/>
           </a>
         </Tooltip>
@@ -65,9 +65,9 @@ export default class IntroComponent extends Component {
             <img alt="email" src={email} className="icon"/>
           </a>
         </Tooltip>
-        <Tooltip title="Email">
+        <Tooltip title="Resume">
           <a href="/resume.pdf">
-            <img alt="email" src={resume} className="icon"/>
+            <img alt="resume" src={resume} className="icon"/>
           </a>
         </Tooltip>
       </div>
