@@ -233,7 +233,7 @@ body {
     content: '';
     position: absolute;
     top: 0px;
-    left:calc(33% + 15px); //$gutter/2
+    left:calc(33% + 30px - 5px); //$gutter/2
     bottom: 0px;
     width: $border-width;
     background: #ddd;
