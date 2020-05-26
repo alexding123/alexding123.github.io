@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/static/css/main.9aebd1af.chunk.css",
-    "main.js": "/static/js/main.6bb767d1.chunk.js",
-    "main.js.map": "/static/js/main.6bb767d1.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.984dbe44.js",
-    "runtime-main.js.map": "/static/js/runtime-main.984dbe44.js.map",
+    "main.css": "/static/css/main.fcc25d2b.chunk.css",
+    "main.js": "/static/js/main.b78a3141.chunk.js",
+    "main.js.map": "/static/js/main.b78a3141.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.ecf062ef.js",
+    "runtime-main.js.map": "/static/js/runtime-main.ecf062ef.js.map",
     "static/css/2.dbd8b1e0.chunk.css": "/static/css/2.dbd8b1e0.chunk.css",
-    "static/js/2.21c42b90.chunk.js": "/static/js/2.21c42b90.chunk.js",
-    "static/js/2.21c42b90.chunk.js.map": "/static/js/2.21c42b90.chunk.js.map",
+    "static/js/2.b959c523.chunk.js": "/static/js/2.b959c523.chunk.js",
+    "static/js/2.b959c523.chunk.js.map": "/static/js/2.b959c523.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.f26a52c3d72121e230a3ed8a102a77b8.js": "/precache-manifest.f26a52c3d72121e230a3ed8a102a77b8.js",
+    "precache-manifest.6f62744217d6a6b4e70d30e24316b5d2.js": "/precache-manifest.6f62744217d6a6b4e70d30e24316b5d2.js",
     "service-worker.js": "/service-worker.js",
     "static/css/2.dbd8b1e0.chunk.css.map": "/static/css/2.dbd8b1e0.chunk.css.map",
-    "static/css/main.9aebd1af.chunk.css.map": "/static/css/main.9aebd1af.chunk.css.map",
-    "static/js/2.21c42b90.chunk.js.LICENSE": "/static/js/2.21c42b90.chunk.js.LICENSE",
+    "static/css/main.fcc25d2b.chunk.css.map": "/static/css/main.fcc25d2b.chunk.css.map",
+    "static/js/2.b959c523.chunk.js.LICENSE.txt": "/static/js/2.b959c523.chunk.js.LICENSE.txt",
     "static/media/certificate.svg": "/static/media/certificate.5cd7d783.svg",
     "static/media/course.svg": "/static/media/course.e0823d00.svg",
     "static/media/demo.svg": "/static/media/demo.9c65d061.svg",
@@ -21,13 +21,14 @@
     "static/media/github.svg": "/static/media/github.76d344f0.svg",
     "static/media/headshot.png": "/static/media/headshot.ff24a5f1.png",
     "static/media/logo.svg": "/static/media/logo.4a56c997.svg",
+    "static/media/resume.svg": "/static/media/resume.b97bc700.svg",
     "static/media/video.svg": "/static/media/video.96545d89.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.984dbe44.js",
+    "static/js/runtime-main.ecf062ef.js",
     "static/css/2.dbd8b1e0.chunk.css",
-    "static/js/2.21c42b90.chunk.js",
-    "static/css/main.9aebd1af.chunk.css",
-    "static/js/main.6bb767d1.chunk.js"
+    "static/js/2.b959c523.chunk.js",
+    "static/css/main.fcc25d2b.chunk.css",
+    "static/js/main.b78a3141.chunk.js"
   ]
 }
