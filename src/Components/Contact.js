@@ -3,7 +3,7 @@ import React, { Component } from "react";
 export default class ContactComponent extends Component {
   getContact() {
     return <span className="contact">
-      Write me an email at <a href="mailto:alding@commschool.org">alding@commschool.org</a>!
+      Write me an email at <a href="mailto:ding@brown.edu">ding@brown.edu</a>!
     </span>
   }
   render() {

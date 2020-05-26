@@ -3,6 +3,7 @@ import RestartingTypist from "./RestartingTypist";
 import Tooltip from "@material-ui/core/Tooltip";
 import email from "../imgs/email.svg";
 import github from "../imgs/github.svg";
+import resume from '../imgs/resume.svg';
 import headshot from "../imgs/headshot.png";
 
 function shuffleArray(arrayOld) {
@@ -23,7 +24,7 @@ export default class IntroComponent extends Component {
       "Computer Scientist",
       "Student",
       "Developer",
-      "Learner",
+      "Problem solver",
       "Musician",
     ]
     const displayTexts = shuffleArray(texts);
@@ -43,9 +44,9 @@ export default class IntroComponent extends Component {
         <div className="text-block">
           Hi, I'm Alex, a {this.getTypist()} 
           <br></br><br></br>
-          I'm a high school senior intending to major in CS, interested in machine learning and its various applications. I also tinker with many randomly-inspired projects to learn new technologies. 
+          I'm an incoming freshman at Brown, interested in machine learning and its various applications. I also tinker with many randomly-inspired projects to learn new technologies. 
           <br></br><br></br>
-          I'm interning with <a href="https://www.cs.uml.edu/~bliu/">Dr. Benyuan Liu's group</a> to explore machine-learning approaches to computer vision problems, and, for the last year, I've been doing research through <a href="http://math.mit.edu/research/highschool/primes/index.php">MIT PRIMES</a> to evaluate some exciting new work in parallel computing. When I'm not coding, you'll probably find me practicing cello, fencing, or volunteering.  
+          I'm interning with <a href="https://www.cs.uml.edu/~bliu/">Dr. Benyuan Liu's group</a> to explore machine-learning approaches to computer vision problems, and, for the last year, I've been developing Commontime, a Firebase-powered scheduling solution, for my high school. When I'm not coding, you'll probably find me practicing cello or baking. 
         </div>
       </div>
     )
@@ -60,8 +61,13 @@ export default class IntroComponent extends Component {
           </a>
         </Tooltip>
         <Tooltip title="Email">
-          <a href="mailto:alding@commschool.org">
+          <a href="mailto:ding@brown.edu">
             <img alt="email" src={email} className="icon"/>
+          </a>
+        </Tooltip>
+        <Tooltip title="Email">
+          <a href="/resume.pdf">
+            <img alt="email" src={resume} className="icon"/>
           </a>
         </Tooltip>
       </div>

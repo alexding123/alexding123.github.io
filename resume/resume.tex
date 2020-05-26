@@ -1,0 +1,136 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Medium Length Professional CV
+% LaTeX Template
+% Version 2.0 (8/5/13)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Thanks : Rishi Shah 's Contribution
+% inspired by his awesome contribution:
+% https://www.overleaf.com/articles/rishi-shahs-resume/vgxvkmxktyxn
+% Author : Allianzcortex
+% contact me : github.com/Allianzcortex
+% email : iamwanghz#gmail.com
+%
+% Important note:
+% This template requires the resume.cls file to be in the same directory as the
+% .tex file. The resume.cls file provides the resume style used for structuring the
+% document.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass{resume} % Use the custom resume.cls style
+
+\usepackage[left=0.40in,top=0.2in,right=0.4in,bottom=0.1in]{geometry} % Document margins
+\usepackage{fontawesome}
+\usepackage{times}
+\usepackage[T1]{fontenc}
+
+\usepackage[breaklinks=true]{hyperref}
+\urlstyle{same}
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    filecolor=magenta,      
+    urlcolor=blue,
+}
+
+\newcommand{\tab}[1]{\hspace{.2667\textwidth}\rlap{#1}}
+\newcommand{\itab}[1]{\hspace{0em}\rlap{#1}}
+
+\name{Alexander Ding}
+\address{\faGithub{ \href{https://www.github.com/alexander-ding}{github.com/alexding}} \faLink{ \href{https://alexander-ding.github.io}{alexander-ding.github.io}} \faEnvelope{  \href{mailto:ding@brown.edu}{ding@brown.edu}}}
+\address{\faMobilePhone{  (617)-455-7815} \faMapMarker{ Boston, MA, USA}} % Your address
+
+\begin{document}
+
+\begin{rSection}{Education}
+
+{\bf Brown University} {\small (Enrolled, pursuing a CS degree)} \hfill {\em September 2020 - Present} 
+
+{\bf Commonwealth School} {\small (GPA 4.98/5.00)}  \hfill {\em September 2016 - May 2020} 
+\\$\bullet$ \textbf{Programming Coursework}: Algorithms \& Data Structures, Computer Architecture, OS, Machine Learning
+\\$\bullet$ \textbf{Math Coursework}: Linear Algebra, Mathematical Logic, Multivariable Calculus, Theoretical Calculus
+
+\end{rSection}
+
+\begin{rSection}{Achievements}
+\begin{tabular}{@{}l@{}l@{}}
+    {\bf Papers}:~ & {\bf A. Ding}, Q. Chen, Y. Cao and B. Liu, \href{https://www.researchgate.net/publication/340452614\_Retinopathy\_of\_Prematurity\_Stage\_Diagnosis\_Using\_Object\_Segmentation\_and\_Convolutional\_Neural\_Networks}{"Retinopathy of Prematurity Stage Diagnosis Using Object Segmentation and } \\
+    & \href{https://www.researchgate.net/publication/340452614\_Retinopathy\_of\_Prematurity\_Stage\_Diagnosis\_Using\_Object\_Segmentation\_and\_Convolutional\_Neural\_Networks}{Convolutional Neural Networks,"} \textit{2020 International Joint Conference on Neural Networks (IJCNN)}, in press \\
+    {\bf Technical Reports}:~ & \href{https://math.mit.edu/research/highschool/primes/materials/2019/Ding.pdf}{"An Evaluation of UPC++ by Porting Shared-Memory Parallel Graph Algorithms"} \\
+    {\bf Awards}:~ & National Merit Finalist, Presidential Scholar Semi-Finalist {\small (pending Finalist decision)} \\
+    {\bf Others}:~ & CS Club Founder, Math Team Co-Captain, NEC Symphony Orchestra (Cello), Fencing Varsity Sabre Captain
+\end{tabular}
+\end{rSection}
+
+\begin{rSection}{Work Experience}
+{\bf Machine Learning Researcher, University of Massachusetts Lowell} \hfill {\em June 2019 - Present}
+\\{\textit{Researcher under the mentorship of Dr. Benyuan Liu}}
+\\$\bullet$ Implemented an energy-efficient neural network using quantized MobileNet to recognize types of vegetables on Android devices
+\begin{tabular}{@{}l@{}l@{}}
+    $\bullet$~ & Developed a novel neural network pipeline that combines object segmentation and image classification to automate the diagnosis of \\
+    & Retinopathy of Prematurity, achieving $13\%$ accuracy increase compared to previous architectures \\
+\end{tabular} 
+\\$\bullet$ First-authored paper and accepted by IJCNN 2020 for publication {\small (see \textbf{Achievements})}
+\\$\bullet$ \underline{Utilized} Python, Kotlin, OpenCV, Machine Learning, NumPy,  Tensorflow, Jupyter Notebook, and LaTeX
+
+{\bf CS Researcher, Massachusetts Institute of Technology} \hfill {\em January 2019 - January 2020} 
+\\{\textit{MIT PRIMES (highly selective year-long research program)}}
+\\
+\begin{tabular}{@{}l@{}l@{}}
+    $\bullet$~ & Investigated the scalability and robustness of UPC++, a distributed programming C++ library, by implementing a suite of parallel \\ 
+    & graph algorithms and benchmarking its performance on the NERSC supercomputer \\
+\end{tabular} 
+\\$\bullet$ Compared UPC++'s performance with OpenMP on an AWS machine
+\\$\bullet$ Authored technical report and presented on Fall PRIMES Conference 2019 {\small (see \textbf{Achievements})}
+\\$\bullet$ \underline{Utilized} C++, Python, Parallel Algorithms, High Performance Computing, OpenMP, and LaTeX
+
+{\bf Research Assistant, Massachusetts Institute of Technology} \hfill {\em September 2017 - April 2018} 
+\\{\textit{Intern for Dr. Tobias Gerstenberg}}
+\\$\bullet$ Created a web-based interface (with a physics engine) to simulate causality experiments using Box2D.js
+\\$\bullet$ Incorporated a SQL backend to store experiment results
+\\$\bullet$ \underline{Utilized} JavaScript, HTML/CSS, and MySQL
+
+\end{rSection}
+
+\begin{rSection}{Projects}
+{\bf Personal Website:} {\small \href{https://alexander-ding.github.io}{\textit{https://alexander-ding.github.io}} (for additional information and projects)}
+
+{\bf Neural Net Flowchart} {\small (\href{https://alexander-ding.github.io/nn-flowchart}{\textit{https://alexander-ding.github.io/nn-flowchart}})}
+\\$\bullet$ Created a website to rapidly experiment, evaluate, and save neural network architectures using an intuitive GUI
+\\$\bullet$ Designed an easy drag-and-drop interface using React.js
+\\$\bullet$ Implemented a RESTful backend server to allow persistent model storage and link sharing
+\\$\bullet$ \underline{Utilized}: Python, Flask, Heroku, PostgresSQL, React.js, Tensorflow.js, HTML/CSS, Docker, GIT
+
+{\bf YeetBot} {\small (\href{https://top.gg/bot/563019457367375882}{\textit{https://top.gg/bot/563019457367375882}})}
+\\$\bullet$ Built a Discord Bot (in >100 servers) using dlib that allows users to meme-ify images by overlaying identified faces with custom masks
+\\$\bullet$ Incorporated OpenCV to support easy mask editing, as well as persistent user settings using a cloud-hosted server
+\\$\bullet$ \underline{Utilized}: Python, dlib, Machine Learning, OpenCV, Heroku, Docker, GIT
+
+{\bf Python Like You Mean It (Chinese version)} {\small (\href{https://cn.pythonlikeyoumeanit.com}{\textit{https://cn.pythonlikeyoumeanit.com}})}
+\\$\bullet$ Created a Chinese version of PythonLikeYouMeanIt, a free online resource for learning the basics of Python and NumPy
+\\$\bullet$ Hosted the translation online to be accessible to the Chinese programming community, in collaboration with original author
+\\$\bullet$ \underline{Utilized}: NumPy, Markdown, Sphinx, GIT
+
+{\bf Quote of the Week} {\small (\href{https://qotw.net/}{\textit{https://qotw.net}})}
+\\$\bullet$ Utilized Google Firebase to implement an online site for high school's Quote of the Week
+\\$\bullet$ \underline{Utilized}: Firebase, Bootstrap, React.js, Redux, GIT
+
+\end{rSection}
+
+\begin{rSection}{Skills}
+\begin{tabular}{@{}l@{}l@{}}
+    {\bf Software}:~ & (\textit{proficient}): Python, C++, Unix, GIT, SQL, LaTeX, Markdown, JavaScript (\textit{familiar}): C, Go, React.js, HTML/CSS, Docker \\
+    {\bf Library}:~ & TensorFlow, NumPy, Flask, OpenMP, UPC++, Sphinx, Firebase
+\end{tabular}
+\end{rSection}
+
+
+\end{document}

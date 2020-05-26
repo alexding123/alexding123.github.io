@@ -1,35 +1,25 @@
 import React from 'react';
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route,
+  Redirect,
+} from "react-router-dom"
 import './App.scss';
-import NavbarComponent from "./Components/Navbar";
-import DividerComponent from "./Components/Divider";
-import IntroComponent from "./Components/Intro"
-import ExperiencesComponent from './Components/Experiences';
-import ProjectsComponent from "./Components/Projects";
-import ClassesComponent from "./Components/Classes";
-import SkillsComponenet from "./Components/Skills";
-import ContactComponent from './Components/Contact';
-import FooterComponent from './Components/Footer';
+import MainPage from './MainPage';
+
+const reload = () => window.location.reload();
 
 function App() {
   return (
-    <div className="App" id="main">
-      <NavbarComponent/>
-      <div className="container fade-in">
-        <IntroComponent/>
-        <DividerComponent/>
-        <ExperiencesComponent/>
-        <DividerComponent/>
-        <ProjectsComponent/>
-        <DividerComponent/>
-        <ClassesComponent/>
-        <DividerComponent/>
-        <SkillsComponenet/>
-        <DividerComponent/>
-        <ContactComponent/>
-        <DividerComponent/>
-      </div>
-      <FooterComponent/>
-    </div>
+    <Router>
+      <Switch>
+        <Route path="/" exact><MainPage/></Route>
+        <Route path="/resume.pdf" onEnter={reload}/>
+        <Route path="*"><Redirect to="/"/></Route>
+      </Switch>
+    </Router>
+    
   );
 }
 
