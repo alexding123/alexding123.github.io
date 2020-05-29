@@ -1,10 +1,11 @@
 import React, { Component } from "react";
-import Tooltip from "@material-ui/core/Tooltip";
+import Tooltip from "react-bootstrap/Tooltip";
+import Button from "react-bootstrap/Button";
 import YouTube from 'react-youtube';
 
 
 import video from "../imgs/video.svg";
-import { Button } from "@material-ui/core";
+import OverlayTrigger from "react-bootstrap/OverlayTrigger";
 
 export default class EmbedVideoComponent extends Component {
   state = {
@@ -28,7 +29,9 @@ export default class EmbedVideoComponent extends Component {
     };
     return (
       <React.Fragment>
-      <Tooltip title="Video">
+      <OverlayTrigger
+        overlay={<Tooltip>Video</Tooltip>}
+      >
       <Button
         variant="link"
         onClick={() => this.setState({expanded:!this.state.expanded})}
@@ -36,13 +39,12 @@ export default class EmbedVideoComponent extends Component {
       >
         <img alt="github" src={video} className="icon"/>
       </Button>
-      </Tooltip>
+      </OverlayTrigger>
       {this.state.expanded ? <YouTube
         videoId={link}
         opts={opts}
         onReady={this._onReady}
       /> : null}
-      
       </React.Fragment>
     );
   }

@@ -1,5 +1,7 @@
 import React, { Component } from "react";
-import Tooltip from "@material-ui/core/Tooltip";
+import Tooltip from "react-bootstrap/Tooltip";
+import Button from "react-bootstrap/Button";
+import OverlayTrigger from "react-bootstrap/OverlayTrigger";
 import EmbedVideoComponent from "./EmbedVideo";
 import experiences from "../jsons/experiences.json";
 
@@ -30,11 +32,15 @@ export default class ExperiencesComponent extends Component {
                   }</li> : null }
               </ul>
                 
-              <div className="entry-icons">
+              <div className="entry-icons d-flex flex-row">
               { experience.github_link ? 
-                <Tooltip title="GitHub repo"><a href={experience.github_link} target="_blank" rel="noopener noreferrer">
-                  <img alt="github" src={github} className="icon"/>
-                </a></Tooltip>
+                <OverlayTrigger
+                  overlay={<Tooltip>GitHub repository</Tooltip>}
+                >
+                  <Button href={experience.github_link} variant="link">
+                    <img alt="github" src={github} className="icon"/>
+                  </Button>
+                </OverlayTrigger>
               : null
               }
               { experience.video_link ? 

@@ -226,14 +226,13 @@ body {
 .timeline {
   width:100%;
   background:#fff;
-  padding: 100px 10vh;
   position: relative;
 
   &:before {
     content: '';
     position: absolute;
     top: 0px;
-    left:calc(33% + 30px - 5px); //$gutter/2
+    left:calc(33% - #{$dot-diameter / 4});
     bottom: 0px;
     width: $border-width;
     background: #ddd;
